@@ -1,0 +1,7 @@
+#content .col {
+  float: right;
+}
+col.resize {
+  max-width:50%;
+  max-height:50%;
+}

@@ -1,0 +1,58 @@
+html {
+  font-size: 16px; 
+  margin: 0;
+  padding: 0;
+}
+
+
+
+h3 {
+  display: block;
+  font-size: 0.6rem;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  margin-bottom: 0.25rem;
+  color: #333;
+}
+
+.product-quantity {
+  width: 5rem;
+  display: block;
+}
+
+.quantity-selectors-container {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+.quantity-selectors {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.quantity-selectors button {
+  width:20px;
+  border: 1px solid grey;
+  background-color: #fff;
+  color: grey;
+}
+
+.quantity-selectors button:first-child {
+  border-bottom: 0;
+}
+
+.quantity-selectors button:hover {
+  cursor: pointer;
+}
+
+.quantity-selectors button[disabled="disabled"] {
+  cursor: not-allowed;
+}
+
+.quantity-selectors button[disabled="disabled"] span {
+  opacity: 0.5;
+}
